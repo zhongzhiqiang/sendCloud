@@ -2,7 +2,7 @@
 import re
 import functools
 from voluptuous import Schema, ALLOW_EXTRA, All, Optional, Required, Invalid
-email_regex = re.compile(r"^[_a-z0-9-]+(\.[_a-z0-9-]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,4})$")
+email_regex = re.compile(r"^[_a-z0-9-A-Z]+(\.[_a-z0-9-A-Z]+)*@[a-z0-9-A-Z]+(\.[a-z0-9-A-Z]+)*(\.[a-zA-Z]{2,4})$")
 
 # 这里做校验等
 

@@ -4,7 +4,7 @@ PACKAGE = "sendCloud"
 NAME = "sendCloud"
 DESCRIPTION = "send cloud web api"
 AUTHOR = "zhongzq"
-VERSION = '0.1'
+VERSION = '0.2'
 
 setup(
     name=NAME,
